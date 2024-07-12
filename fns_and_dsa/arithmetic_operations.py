@@ -7,8 +7,7 @@ def perform_operation(num1, num2, operation):
         case "devide": 
             if (num1 == 0) or (num2 == 0):
                 return "Invalid division"
-            else:
-                return num1 / num2
+            return num1 / num2
             
 def main():
     print("Arithmetic Operations")
